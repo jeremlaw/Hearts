@@ -14,7 +14,6 @@ Hand newHand(int size);
 void freeHand(Hand hand);
 void pick(Hand hand, Card card);
 void showHand(Hand hand);
-void showCard(Hand hand, int index);
 void highlightCard(Hand hand, int index);
 int handSize(Hand hand);
 Card cardAt(Hand hand, int index);
